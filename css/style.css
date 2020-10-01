@@ -1,0 +1,29 @@
+/* Set the background color of body to tan */
+header {
+    background-color: tan;
+}
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+    header {
+        background-color: blue;
+    }
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+    header {
+        background-color: olive;
+    }
+}
+#navbar {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    
+}
+header{
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+}
